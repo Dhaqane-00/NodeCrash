@@ -16,6 +16,8 @@ app.use(express.json());
 
 
 app.use("/Api",User);
+//Access Endpiont
+//LocalHost:300/Api/Users/CreateUser   Like this
 
 app.listen(300, ()=>{
     console.log("Server is running on port 3000");
