@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const Mongoose = require("mongoose");
 
-const {User} = require("./src/routers/User");
+const User = require("./src/routers/User");
 
 
 app.use(express.json());
